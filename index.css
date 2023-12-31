@@ -1,0 +1,272 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Padding for the navbar */
+    background-color: rgb(233, 233, 93); /* Navbar background color */
+    color: #0f0f0f; /* Text color */
+    font-size: 90%; /* Font size for text */
+    margin: 0;
+    /* width:  100; */
+    display: flex;
+   
+}
+
+.navbar-left {
+    flex: 1; /* Takes as much space as it needs */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.logo {
+    width: 6rem; /* Width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Spacing between logo and buttons */
+}
+
+.nav-button {
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    margin-left: 1rem; /* Spacing between buttons */
+    border: none;
+    border-radius: 0.5rem;
+
+    background-color: rgb(180, 180, 56); /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer;
+    /* Other button styles */
+}
+
+.conatiner{
+    width: 50%;
+    height: 30%;
+    background-color: rgb(212, 212, 76);
+    color: #0f0f0f;
+    margin-top: 15%;
+    justify-content: center;
+    margin-left: 24%;
+    display: flex;
+    text-align: center;
+    border: 2%solid #0f0f0f;
+}
+
+.con{
+    text-align: center;
+    margin-top: 14%;
+    margin-bottom: -7%;
+    background-color: rgb(212, 212, 76);
+    color: #050505;
+}
+
+.AboutContainer{
+    margin-top: 9%;
+   background-color: rgb(212, 212, 76);
+   display: flex;
+   text-align: center;
+   flex-direction: row;
+}
+.about{
+    width: 40%;
+    float: right;
+    margin-top: 6%;
+    height: 10%;
+    margin-left: 10%;
+    background-color: white;
+    color: black;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    text-align: center;
+     margin-top: 10%;
+     padding-bottom: 5%;
+     justify-content: space-between;
+}
+
+.button-container button:hover {
+    background-color: #2980b9;
+}
+
+.heading1{
+    background-color:  rgb(212, 212, 76);
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+}
+.heading2{
+    background-color: rgb(212, 212, 76);
+    margin-top: 10%;
+    color: #080808;
+    text-align: center;
+}
+
+.cardsContainer{
+    width: 95%;
+    margin-left: 2%;
+    background-color: rgb(212, 212, 76);
+    color: rgb(12, 12, 12);
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+
+
+/* CSS for Contact Form */
+
+.contactUs {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    padding: 5%;
+    border: 1px solid #2b2727;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-top: 20%;
+    color: #080808;
+    background-color: rgb(212, 212, 76);
+  }
+  
+  .contactUs .heading h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .contactUs .content label {
+    font-weight: bold;
+  }
+  
+  .contactUs .content input[type="text"],
+  .contactUs .content input[type="email"],
+  .contactUs .content textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .contactUs .content textarea {
+    resize: vertical;
+  }
+  
+  .contactUs .content input[type="submit"] {
+    background-color: rgb(212, 212, 76);
+    color: rgb(19, 18, 18);
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contactUs .content input[type="submit"]:hover {
+    background-color: rgb(68, 65, 65);
+  }
+  .complet{
+    background-color: rgb(212, 212, 76);
+  }
+
+
+
+
+
+
+
+
+
+
+/* agr hmari scr ziada se ziada ya ho   */
+@media screen and (max-width: 600px) {
+   
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem; /* Padding for the navbar */
+        background-color:rgb(212, 212, 76); /* Navbar background color */
+        color: black; /* Text color */
+        font-size: 90%; /* Font size for text */
+        margin: 0;
+        /* width:  100; */
+        display: flex;
+       
+    }
+    .conatiner{
+     display: flex;
+     font-size: small;
+    }
+
+    .cardsContainer{
+        text-align: center;
+        width: 95%;
+        padding-left: 5%;
+        margin-left: 2%;
+        background-color: rgb(212, 212, 76);
+        color: black;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .AboutContainer{
+        margin-top: 10%;
+       background-color: rgb(212, 212, 76);
+       display: flex;
+       flex-direction: column;
+       width: 140%;
+       text-align: center;
+    }
+
+  }
+  .complet{
+    background-image: url('https://static-cse.canva.com/blob/1145215/1.magebyRodionKutsaevviaUnsplash.jpg');
+    height: 100%;
+    margin-top: -14%;
+  }
+  .container{
+    padding-top: 10%;
+  }
+
+
+
+  .footer-slider {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(209, 209, 74);
+  }
+  
+  .slider-content {
+    display: flex;
+    animation: slide 10s linear infinite; /* Change the duration as needed */
+  }
+  
+  .slider-content p {
+    flex: 1 0 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+
